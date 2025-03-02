@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌐 Pear Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>🌐 Pear Chat</h1>
+      <div class="peer-info">
+        <div class="id-box">
+          <span>Your ID: </span>
+          <span id="peerId">...</span>
+          <button id="copyId" title="Copy my ID">📋</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="connection-section">
+      <input type="text" id="remoteIdInput" placeholder="Enter remote ID" />
+      <button id="connectButton">Connect</button>
+    </div>
+
+    <div id="messages"></div>
+
+    <form id="messageForm">
+      <input type="text" id="messageInput" placeholder="Type a message" autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
