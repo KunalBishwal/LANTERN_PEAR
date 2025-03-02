@@ -47,18 +47,6 @@ Ensure you have **Node.js** installed on your system.
 - **Corestore** (Manages multiple Hypercores)
 - **b4a (Buffer Utilities)**
 
-## 📜 Code Structure
-```
-LANtern-Messenger/
-│── index.js        # Main application logic
-│── package.json    # Dependencies and scripts
-│── public/         # Frontend assets
-│── src/
-│   ├── core.js     # Hypercore & Hyperbee setup
-│   ├── swarm.js    # Hyperswarm setup
-│   ├── ui.js       # DOM interactions and event listeners
-└── README.md       # Project documentation
-```
 
 ## 📖 Usage Guide
 
